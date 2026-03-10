@@ -1,0 +1,25 @@
+body{
+font-family:Arial;
+background:#eee;
+display:flex;
+justify-content:center;
+margin-top:100px;
+}
+
+.todo-container{
+background:white;
+padding:20px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:10px;
+border-bottom:1px solid #ccc;
+cursor:pointer;
+}
